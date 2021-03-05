@@ -1,0 +1,13 @@
+# config
+url: http://jkortner.github.io
+
+jkortner:
+  logo: "/images/img.jpg"
+  author: "John Körtner"
+
+exclude: ["README.md", "Gemfile", "Gemfile.lock"]
+
+markdown: kramdown
+highlighter: rouge
+
+permalink: pretty

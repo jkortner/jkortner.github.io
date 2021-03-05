@@ -1,0 +1,26 @@
+---
+layout: base
+---
+<div class="wrapper">
+    <header>
+        <div class="logo-container">
+          <a class="logo" style="background-image: url('{{ site.jkortner.logo }}')"></a>
+        </div>
+
+        <div class="author-container"><h1>{{ site.jkortner.author }}</h1></div>
+
+        <div class="icon-container">
+          <a href="https://www.linkedin.com/in/jkortner/">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/jkortner">
+              <i class="fa fa-github"></i>
+          </a>
+        </div>
+    </header>
+    <main>
+      <div class="content">
+        {% include content.html %}
+      </div>
+    </main>
+</div>

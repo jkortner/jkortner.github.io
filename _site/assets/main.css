@@ -1,0 +1,102 @@
+body {
+  font-family: 'Average', serif;
+  font-size: 14px;
+  color: #303030;
+  background-color: #ffffff;
+  line-height: 1.25em; }
+
+header,
+main {
+  padding: 0 20px; }
+
+h2 {
+  font-size: 1.25em;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+/*** wrapper div for both header and main ***/
+.wrapper {
+  margin-top: 5%; }
+
+/*** anchor tags ***/
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #0085ca;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+/*** logo ***/
+.logo-container {
+  text-align: center; }
+
+.logo {
+  width: 140px;
+  height: 140px;
+  display: inline-block;
+  background-size: cover;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  border: 10px solid #ffffff; }
+
+/*** author ***/
+.author-container h1 {
+  font-size: 1.75em;
+  margin-top: 0;
+  margin-bottom: 0.25em;
+  text-align: center; }
+
+/*** icon ***/
+.icon-container {
+  font-size: 1.15em;
+  text-align: center; }
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px; }
+
+/******/
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), #46433a, rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), #46433a, rgba(0, 0, 0, 0));
+  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), #46433a, rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), #46433a, rgba(0, 0, 0, 0)); }
+
+/*** media queries ***/
+/* X-Small devices (phones, 480px and up) */
+@media (min-width: 480px) {
+  /* wrapper stays 480px wide past 480px wide and is kept centered */
+  .wrapper {
+    width: 480px;
+    margin: 10% auto 0 auto; }
+
+  .icon-container {
+    text-align: center; } }
+/* All other devices (768px and up) */
+@media (min-width: 768px) {
+  /* past 768px the layout is changed and the wrapper has a fixed width of 680px
+  to accomodate both the header column and the content column */
+  .wrapper {
+    width: 760px; }
+
+  /* the header column stays left and has a dynamic width with all contents
+  aligned right */
+  header {
+    float: left;
+    width: 30%;
+    text-align: right; }
+
+  .author-container h1,
+  .logo-container,
+  .icon-container {
+    text-align: right; }
+
+  main {
+    width: 60%;
+    margin-left: 35%;
+    padding: 0; } }
