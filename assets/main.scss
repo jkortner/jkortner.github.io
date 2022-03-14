@@ -2,7 +2,7 @@
 ---
 
 body {
-  font-family: 'Nunito', Arial, sans-serif;
+  font-family: Palatino, serif;
   font-size: 14px;
   color: #303030;
   background-color: #ffffff;
@@ -17,6 +17,18 @@ h2 {
   font-size: 1.25em;
   margin-top: 0;
   margin-bottom: 0; }
+
+h3 {
+  font-size: 1em;
+  font-weight: normal;
+  margin-bottom: 0; }
+
+article {
+  border-style: solid;
+  margin: 8px 0px 8px 0px;
+  box-shadow: 4px 4px 0px 0px #0085ca4d; 
+  border-width: 1px; ;
+}
 
 /*** wrapper div for both header and main ***/
 .wrapper {
@@ -86,7 +98,8 @@ hr {
   /* past 768px the layout is changed and the wrapper has a fixed width of 680px
   to accomodate both the header column and the content column */
   .wrapper {
-    width: 760px; }
+    width: 760px; 
+    margin: 7% auto 0 auto;}
 
   /* the header column stays left and has a dynamic width with all contents
   aligned right */
