@@ -1,16 +1,16 @@
 ---
 ---
 /* Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Cabin");
 @import url('https://fonts.googleapis.com/css2?family=Jost');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 
 body {
   font-family: 'Jost', Arial, sans-serif;
-  /* 'Gill Sans Light' */
   font-size: 14px;
-  color: #303030;
+  font-weight: 300;
+  color: #030303;
   background-color: #ffffff;
-  line-height: 1.25em;
+  line-height: 1.15em;
 }
 
 header,
@@ -19,9 +19,9 @@ main {
 
 h2 {
   font-family: sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   margin-top: 0;
-  margin-bottom: 0; }
+  margin-bottom: -.25em; }
 
 h3 {
   font-size: 1em;
@@ -39,6 +39,8 @@ article {
   margin: 6px 0px 6px 0px; 
   /* box-shadow: 4px 4px 0px 0px #0085ca4d; */
   /* border-width: 1px; */
+  padding-left: .5em;
+  text-indent: -.5em;
 }
 
 section {
@@ -57,9 +59,12 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-  color: #0085ca;
+  color: #0085ca; /*** #00693e, #0085ca, #f87b00 ***/
+  /*** background: -webkit-linear-gradient(75deg, #2e3192, #1bffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; ***/
   text-decoration: none; }
-
+  
 a:hover {
   text-decoration: underline; }
 
@@ -118,7 +123,7 @@ hr {
   to accomodate both the header column and the content column */
   .wrapper {
     width: 760px; 
-    margin: 7% auto 0 auto;}
+    margin: 5% auto 0 auto;}
 
   /* the header column stays left and has a dynamic width with all contents
   aligned right */
