@@ -1,11 +1,13 @@
 ---
 ---
-/* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Jost');
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+/* 
+Fonts:
+https://github.com/dreampulse/computer-modern-web-font
+*/
+@import url('https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css');
 
 body {
-  font-family: 'Jost', Arial, sans-serif;
+  font-family: 'Computer Modern Sans', Arial, sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: #030303;
@@ -18,7 +20,6 @@ main {
   padding: 0 20px; }
 
 h2 {
-  font-family: sans-serif;
   font-size: 1em;
   margin-top: 0;
   margin-bottom: -.25em; }
@@ -83,8 +84,7 @@ a:hover {
 
 /*** author ***/
 .author-container h1 {
-  font-family: sans-serif;
-  font-size: 1.7em;
+  font-size: 1.8em;
   margin-top: 0;
   margin-bottom: 0.25em;
   text-align: center; }
