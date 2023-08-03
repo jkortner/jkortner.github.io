@@ -36,10 +36,7 @@ em {
 **/
 
 article {
-  /* border-style: solid; */
   margin: 6px 0px 6px 0px; 
-  /* box-shadow: 4px 4px 0px 0px #0085ca4d; */
-  /* border-width: 1px; */
   padding-left: .5em;
   text-indent: -.5em;
 }
@@ -48,7 +45,7 @@ section {
   border-style: solid;
   margin: 6px 0px 6px 0px; 
   /* box-shadow: 4px 4px 0px 0px #0085ca4d; */
-  /* border-width: 1px; */
+  border-width: 1px;
 }
 
 /*** wrapper div for both header and main ***/
@@ -60,10 +57,10 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-  color: #0085ca; /*** #00693e, #0085ca, #f87b00 ***/
-  /*** background: -webkit-linear-gradient(75deg, #2e3192, #1bffff);
+  color: #0085ca;
+  /*** background: -webkit-linear-gradient(75deg, #0085ca, #57068c);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; ***/
+  -webkit-text-fill-color: transparent; ***/ 
   text-decoration: none; }
   
 a:hover {
