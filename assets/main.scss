@@ -22,30 +22,29 @@ main {
 h2 {
   font-size: 1em;
   margin-top: 0;
-  margin-bottom: -.25em; }
+  margin-bottom: -.25em; 
+  direction: ltr; }
 
 h3 {
   font-size: 1em;
   font-weight: normal;
   margin-bottom: 0; }
 
-/** 
-em {
-  text-decoration: underline;
+p {
+  direction: ltr; 
 }
-**/
 
-article {
-  margin: 6px 0px 6px 0px; 
+article,
+aside {
+  margin: 6px 0px 6px 0px;
   padding-left: .5em;
   text-indent: -.5em;
+  direction: ltr; 
 }
 
 section {
-  border-style: solid;
   margin: 6px 0px 6px 0px; 
-  /* box-shadow: 4px 4px 0px 0px #0085ca4d; */
-  border-width: 1px;
+  direction: ltr; 
 }
 
 /*** wrapper div for both header and main ***/
@@ -137,4 +136,28 @@ hr {
   main {
     width: 58%;
     margin-left: 35%;
-    padding: 0; } }
+    padding: 0; 
+  } 
+  
+  .research {
+    max-height: 180px;
+    overflow-x: visible;
+    overflow-y: scroll; 
+    padding: 0; 
+  }
+  
+  article {
+    margin: 0px 4px 6px 4px; 
+  }
+  
+  ::-webkit-scrollbar {
+    width: 2px;
+    background: #bfbfbf;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #0085ca;
+    border-radius: 1px;
+  }
+  
+}
