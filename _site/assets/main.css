@@ -112,7 +112,8 @@ hr {
   to accomodate both the header column and the content column */
   .wrapper {
     width: 760px;
-    margin: 5% auto 0 auto; }
+    margin: 5% auto 0 auto;
+    /* to do: center vertically */ }
 
   /* the header column stays left and has a dynamic width with all contents
   aligned right */
@@ -132,7 +133,8 @@ hr {
     padding: 0; }
 
   .research {
-    max-height: 180px;
+    max-height: 20vh;
+    /* 180px */
     overflow-x: visible;
     overflow-y: scroll;
     padding: 0; }
