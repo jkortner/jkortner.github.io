@@ -7,9 +7,8 @@ https://github.com/dreampulse/computer-modern-web-font
 @import url('https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css');
 
 body {
-  font-family: 'Computer Modern Sans', Arial, sans-serif;
+  font-family: 'Computer Modern Sans', sans-serif;
   font-size: 14px;
-  font-weight: 300;
   color: #030303;
   background-color: #ffffff;
   line-height: 1.15em;
@@ -142,7 +141,14 @@ hr {
   } 
   
   .research {
-    max-height: 20vh; /* 180px */
+    max-height: 200px; /* 20vh */
+    overflow-x: visible;
+    overflow-y: scroll; 
+    padding: 0; 
+  }
+  
+  .policy {
+    max-height: 115px;
     overflow-x: visible;
     overflow-y: scroll; 
     padding: 0; 
