@@ -140,6 +140,7 @@ hr {
 
   .policy {
     max-height: 100px;
+    /* 120px */
     overflow-x: visible;
     overflow-y: scroll;
     padding: 0; }
