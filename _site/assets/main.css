@@ -61,6 +61,9 @@ a:hover {
 .logo-container {
   text-align: center; }
 
+.uni-container {
+  text-align: center; }
+
 .logo {
   width: 140px;
   height: 140px;
@@ -86,6 +89,13 @@ ul {
   list-style-type: disc;
   padding-left: 20px; }
 
+/*** details ***/
+details {
+  font-size: 12px; }
+
+summary {
+  color: #0085ca; }
+
 /******/
 hr {
   border: 0;
@@ -104,7 +114,10 @@ hr {
     margin: 10% auto 0 auto; }
 
   .icon-container {
-    text-align: center; } }
+    text-align: center; }
+
+  .uni-container {
+    display: none; } }
 /* All other devices (768px and up) */
 @media (min-width: 768px) {
   /* past 768px the layout is changed and the wrapper has a fixed width of 680px
@@ -126,13 +139,16 @@ hr {
   .icon-container {
     text-align: right; }
 
+  .uni-container {
+    display: inline; }
+
   main {
     width: 58%;
     margin-left: 35%;
     padding: 0; }
 
   .research {
-    max-height: 200px;
+    max-height: 180px;
     /* 20vh */
     overflow-x: visible;
     overflow-y: scroll;
